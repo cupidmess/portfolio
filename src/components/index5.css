@@ -1,0 +1,127 @@
+.color4{
+  background-image: url(image2.png);
+  height: 100vh; /* Full viewport height */
+  width: 100vw;
+  display: flex;
+  
+}
+.text2-outline {
+  position: relative; 
+  color: white;
+  font-size: 65px;
+  font-weight: 1000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: black; /* Outline color */
+  -webkit-text-stroke-width: 1px; /* Outline width */ 
+  overscroll-behavior: none;
+  display: flex;
+  padding-bottom: 4rem;
+  
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14rem;
+  margin-top: 10rem;
+}
+
+.box1{
+  height: 280px;
+  width: 340px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 3rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.box1:hover,.box2:hover,.box3:hover {
+  transform: scale(1.1);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.icon1{
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+.box1-text{
+  font-size: 15px;
+  font-weight: 300; 
+  margin-top: 1rem;
+ 
+
+}
+.box1-text2{
+  font-size: 45px;
+  width: 338px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  margin-top: 2.2rem;
+
+}
+.box2{
+  height: 280px;
+  width: 340px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 3rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.icon2{
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 55px;
+  width: 55px;
+}
+.box2-text{
+  font-size: 15px;
+  font-weight: 300; 
+  margin-top: 1rem;
+}
+.box2-text2{
+  font-size: 45px;
+  width: 338px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  margin-top: 1rem;
+}
+.box3{
+  height: 280px;
+  width: 340px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.icon3{
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 55px;
+  width: 55px;
+}
+.box3-text{
+  font-size: 15px;
+  font-weight: 300; 
+  margin-top: 1rem;
+}
+.box3-text2{
+  font-size: 45px;
+  width: 338px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  margin-top: 3.8rem;
+}

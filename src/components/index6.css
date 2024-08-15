@@ -1,0 +1,143 @@
+.color5{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.cont-1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+
+
+}
+
+.box1-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  width: 370px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 3rem;
+  margin-top:7rem ;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.box2-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  width: 370px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 3rem;
+  margin-top:7rem ;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+
+}
+.box3-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  width: 370px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 3rem;
+  margin-top:7rem ;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+}
+.title5-1,.title5-2,.title5-3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.pr {
+  margin-top: 0.5rem;
+}
+.port{
+  position: absolute;
+  transform: rotate(90deg); /* Rotate the text 45 degrees */
+  display: inline-block;
+  background-color: white;
+  font-size: 12px;
+  height: 15px;
+  margin-top: 10rem;
+  margin-left: 3.3cqmax;
+
+}
+.bc{
+  position: absolute;
+  margin-left: 3.3rem;
+}
+.mw {
+  position: relative; 
+  color: white;
+  font-size: 65px;
+  font-weight: 1000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: black; /* Outline color */
+  -webkit-text-stroke-width: 1px; /* Outline width */ 
+  overscroll-behavior: none;
+  display: flex;
+  margin-left: 35rem;
+  margin-top: 5rem;
+}
+.mw::after {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:black; /* Tomato color */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.mw:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+.box1-5:hover {
+  transform: scale(1.1); /* Zoom the hovered container */
+  z-index: 1; /* Bring the hovered container to the front */
+}
+
+.box1-5:hover ~ .container,
+.box1-5:not(:hover) {
+  filter: blur(3px); /* Blur non-hovered containers */
+  transform: scale(0.9); /* Slightly shrink non-hovered containers */
+}
+.box2-5:hover {
+  transform: scale(1.1); /* Zoom the hovered container */
+  z-index: 1; /* Bring the hovered container to the front */
+}
+
+.box2-5:hover ~ .container,
+.box2-5:not(:hover) {
+  filter: blur(3px); /* Blur non-hovered containers */
+  transform: scale(0.9); /* Slightly shrink non-hovered containers */
+}
+.box3-5:hover {
+  transform: scale(1.1); /* Zoom the hovered container */
+  z-index: 1; /* Bring the hovered container to the front */
+}
+
+.box3-5:hover ~ .container,
+.box3-5:not(:hover) {
+  filter: blur(3px); /* Blur non-hovered containers */
+  transform: scale(0.9); /* Slightly shrink non-hovered containers */
+}

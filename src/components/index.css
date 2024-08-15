@@ -1,0 +1,147 @@
+/* General body styles */
+.body1 {
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden; /* Prevent scrolling */
+  background-image: url('image.png');
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x:hidden;
+
+}
+/* src/pages/LandingPage.css */
+.landing-page {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.landing-page.fade-in {
+  opacity: 1;
+}
+/* CSS */
+/* CSS */
+.push-button {
+  padding: 10px 20px;
+
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.push-button:hover {
+  transform: translateY(4px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* General div styles */
+.div1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+
+/* Text Outline for headings */
+.text-outline {
+  position: relative; 
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: black; /* Outline color */
+  -webkit-text-stroke-width: 2px; /* Outline width */ 
+  overscroll-behavior: none;
+}
+
+/* Position and padding adjustments for text */
+.text-outline-container {
+  position: relative;
+  overscroll-behavior: none;
+}
+
+.text-overlap {
+  position: absolute;
+  padding-left: 33rem;
+  top: 0;
+  left: 0;
+  color: white;
+  overscroll-behavior: none;
+}
+
+.text-padding {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding-top: 23rem;
+  padding-left: 44rem;
+  overscroll-behavior: none;
+}
+
+.text-padding2 { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding-top: 21.3rem;
+  padding-left: 58rem;
+}
+
+.text-padding3 {
+  padding-top: 22rem;
+}
+
+/* Font weight and text styling */
+.text-bold {
+  font-weight: 800;
+}
+
+.text-center { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Padding utilities */
+.p-center { 
+  padding-top: 12rem;
+}
+
+.p-padding4 {
+  padding-top: 2rem;
+  padding-left: 6rem;
+}
+
+.p-padding5 {
+  padding-top: 0.5rem;
+  font-size: larger;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: black; /* Outline color */
+  -webkit-text-stroke-width: 0.5px; /* Outline width */
+}
+
+/* Button styling */
+.b-1 {
+  font-size: 28px;
+  color: rgb(232, 232, 232);
+  background: #000;
+  border-width: 0;
+  border-style: solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 10rem;
+  margin-top: 9rem;
+  margin-left: 2rem;
+}

@@ -1,0 +1,65 @@
+.color3 { 
+  background-color: #202020;
+  height: 100vh; /* Full viewport height */
+  width: 100vw;
+  display: flex;
+  padding-top: 7rem;
+
+}
+.text1 { 
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-left: 15rem;
+
+}
+.cursive-2 { 
+  color: #FDCCE0;
+  font-size: 75px;
+  font-weight: 300;
+  font-style: italic;
+}
+.abs {
+  position: absolute;
+  padding-top: 1rem;
+}
+.para1{
+  position: absolute;
+  color: white;
+  margin-top: 12rem;
+  margin-left: 15rem;
+  font-size: 16px;
+}
+.pfp-2{
+  margin-left: 58rem;
+  position: absolute;
+}
+.pfp-3{
+  position: absolute;
+  margin-left: 73rem;
+  margin-top: 21rem;
+
+}
+.pfp-4{
+  position: absolute;
+  margin-top: 26rem;
+  margin-left: 25rem;
+
+  
+}
+.grayscale-image {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease; /* Smooth transition */
+}
+
+.grayscale-image:hover {
+  filter: grayscale(0%); /* Remove grayscale on hover */
+}
+.p-1{
+  height: fit-content;
+
+}

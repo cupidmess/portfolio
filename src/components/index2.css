@@ -1,0 +1,10 @@
+/* Initial state: hidden and not transparent */
+.landing-page {
+  opacity: 0;
+  transition: opacity 2s ease-in-out; /* Transition for the fade-in effect */
+}
+
+/* Final state: visible and fully opaque */
+.landing-page.fade-in {
+  opacity: 1;
+}
